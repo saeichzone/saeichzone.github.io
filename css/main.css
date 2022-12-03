@@ -1211,7 +1211,7 @@ input[type=text],
     display: inline-block;
     position: relative;
     padding-right: 12px;
-    margin-bottom: 25px
+    margin-bottom: 20px
 }
 
 .block-title h3 {
@@ -2065,7 +2065,7 @@ input[type=text],
     transform: translate3d(-50%, 0%, 0)
 }
 
-.portfolio-grid figure:hover i,
+.portfolio-grid figure:hover .i,
 .portfolio-grid figure:hover .name,
 .portfolio-grid figure:hover .category {
     opacity: 1
@@ -3252,6 +3252,40 @@ blockquote {
     border-right: 0
 }
 
-.col-xs-12 col-sm-4 {
-    color: white;
+.card-container{
+    background-color: #69af77;
+    border-radius: 30px;
+    color: #ffffff;
+    padding-top: 10px;
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0,75);
+}
+.struktur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.img-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 30vh;
+    margin: 0;
+}
+.img{
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
+}
+.shadow{
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
 }
