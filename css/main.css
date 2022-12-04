@@ -3253,7 +3253,7 @@ blockquote {
 }
 
 .card-container{
-    background-color: #69af77;
+    background-color: #68914d;
     border-radius: 30px;
     color: #ffffff;
     padding-top: 10px;
@@ -3284,8 +3284,5 @@ blockquote {
     border-radius: 10px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
-}
-.shadow{
-    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px rgba(121,203,137,255);
 }
