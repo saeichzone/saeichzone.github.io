@@ -111,19 +111,15 @@
             </a>
           </li>
           <li>
-            <a href="#artikel" class="nav-anim">
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-news" width="24" height="24"
-                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
+            <a href="#spotify" class="nav-anim">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-spotify" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path
-                  d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11">
-                </path>
-                <line x1="8" y1="8" x2="12" y2="8"></line>
-                <line x1="8" y1="12" x2="12" y2="12"></line>
-                <line x1="8" y1="16" x2="12" y2="16"></line>
-              </svg>
-              <span class="link-text">Artikel</span>
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527"></path>
+                <path d="M9 15c1.5 -1 4 -1 5 .5"></path>
+                <path d="M7 9c2 -1 6 -2 10 .5"></path>
+             </svg>
+              <span class="link-text">Playlist Spotify</span>
             </a>
           </li>
           <li>
@@ -362,8 +358,8 @@
                     <div class="portfolio-grid three-columns">
 
                       <figure class="item lbaudio category_semua category_pentasseni">
-                        <div class="Pentas Seni">
-                          <img src="img/portfolio/1.jpg" alt="Pentas Seni" title="" />
+                        <div class="card">
+                          <img src="img/portfolio/1.jpg" alt="img" title="" />
                           <a href="img/portfolio/1.jpg"
                             class="lightbox"></a>
                         </div>
@@ -374,7 +370,7 @@
                       </figure>
 
                       <figure class="item lbaudio category_semua category_pentasseni">
-                        <div class="Pentas Seni">
+                        <div class="card">
                           <img src="img/portfolio/2.jpg" alt="Pentas Seni" title="" />
                           <a href="img/portfolio/2.jpg"
                             class="lightbox"></a>
@@ -386,7 +382,7 @@
                       </figure>
 
                       <figure class="item lbaudio category_semua category_pentasseni">
-                        <div class="Pentas Seni">
+                        <div class="card">
                           <img src="img/portfolio/3.jpg" alt="Pentas Seni" title="" />
                           <a href="img/portfolio/3.jpg"
                             class="lightbox"></a>
@@ -728,49 +724,21 @@
           </section>
           <!-- End of Album Subpage -->
 
-          <!-- Artikel Subpage -->
-          <section data-id="artikel" class="animated-section">
-            <div class="section-content">
-              <div class="page-title">
-                <h2>Artikel</h2>
-                <h4>Artikel Saeichzone</h4>
+          <!-- Playlist Subpage -->
+        <section data-id="spotify" class="animated-section">
+          <div class="section-content">
+            <div class="page-title">
+              <h2>Playlist Spotify</h2>
+              <h4>Saeichzone</h4>
+            </div>
+            
+            <div class="">
+              <div class="lm-info-block -default"><a href="https://open.spotify.com/playlist/7fj4OSUQShWtWQfL24qotO?si=c_g2i_kdSG-2GGXc-q7PWw
+                " target=""><img src="img/spotify.PNG" width="250px" style="display:block; margin:auto;">
               </div>
-
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <ul class="grid-filters blog-filters">
-                    <li class="active">
-                      <a class="filter btn btn-sm btn-link" data-filter=".category_all">All</a>
-                    </li>
-                  </ul>
-
-                  <div class="blog-masonry two-columns clearfix">
-
-                    <!-- Artikel Post 1 -->
-                    <div class="item post-1 category_all category_design">
-                      <div class="blog-card">
-                        <div class="media-block">
-                          <div class="category">
-                            <a href="#" title="View all posts in Design">Coming Soon</a>
-                          </div>
-                          <a href="blog-post-1.html">
-                            <img src="img/comingsoon.png" class="size-blog-masonry-image-two-c"
-                              alt="Why I Switched to Sketch For UI Design" title="" />
-                            <div class="mask"></div>
-                          </a>
-                        </div>
-                        <div class="post-info">
-                          <div class="post-date">01 Des 2022</div>
-                          <a href="blog-post-1.html">
-                            <h4 class="blog-item-title">Coming Soon</h4>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End of Artikel Post 1 -->
-                    
-                  </div>
-                </div>
+               <div>
+                 <div class="lm-info-block -default"><h3 class="text-spotify">Open In Spotify</h3>
+               </div>
               </div>
             </div>
 
@@ -788,10 +756,12 @@
 
               <div class="row">
                 <!-- Social Media Info -->
-
+                
                 <div class="col-xs-12 col-sm-4">
                   <div class="lm-info-block -default">
-                    <a href="https://www.instagram.com/saeichzone/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <div>
+                     <a href="https://www.instagram.com/saeichzone/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
                     <h4>@saeichzone</h4>
                   </div>
                 </div>
